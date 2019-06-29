@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang=en-us>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Jessica Sola</title>
-    </head> 
-    <header>Jessica Sola</header>
-    <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-            </ul>
-      </nav>
-      <body>  
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Jessica Sola</title>
+</head>
+
+<body>
+
+    <!--Static Header -->
+    <div class="header">
+        <div class="headercontainer">
+            <h1>Jessica Sola</h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li>|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li>|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+         </div>   
+    </div>
+      <!--Contact Page -->
+        <div class="content">
+            <h2>Contact</h2>
+            <hr>
     <div class="container">
         <form action="action_page.php">
       
@@ -24,11 +38,16 @@
           <input type="text" id="lname" name="Email" placeholder="Example@gmail.com">
       
           <label for="subject">Message</label>
-          <textarea id="subject" name="subject" style="height:200px"></textarea>
+          <textarea id="subject" name="subject" ></textarea>
       
-          <input type="submit" value="Submit">
-      
+          <button type="submit">Submit</button>  
+
         </form>
       </div>
-    </body>
-    </html>
+          <!--Static Footer-->
+     <footer>
+              Copyright &copy;
+           </footer>
+       </body>
+   </html>
+ 

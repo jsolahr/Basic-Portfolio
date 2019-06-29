@@ -1,2 +1,212 @@
-header {
-    color: blue;
+/*Body Background*/ 
+body {
+  background-image: url(file:///Users/jessicasola/Desktop/concrete_seamless.png);
+  margin: 0px;
+  align-content: center;
+  overflow: hidden;
+}
+/*Header Section */
+.header {
+  position: fixed;
+  top: 0%;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: .02px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.headercontainer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 0px;
+  background-color: #4aaaa5;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  line-height: 61px;
+  position: relative;
+  left: -22px;
+  bottom: -16px;
+  margin-top: 14px;
+  display: inline-block;
+  text-align: center;
+}
+.nav {
+  margin-left: 547px;
+  padding-bottom: 0px;
+  width: 960px;
+  height: 15px;
+  font-size: 16px;
+  word-spacing: 6px;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+li {
+  display: inline;
+}
+/* ContentBox */
+.content {
+  background-color: #ffffff;
+  display: block;
+  padding: 30px;
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:#dddddd;
+  border-style: solid;
+  border-width: .02px;
+  align-content: center;
+  width: 960px;
+  height: 400px;
+  color: #777777;
+} 
+/*MyName*/
+h2 {
+  margin-top: 6px;
+  padding-left:2px;
+  color: #4aaaa5; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*solidline*/
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#cccccc;
+}
+#myaboutmepic {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 15px;
+  margin: 0px;
+  height: 150px;
+  width: 150px;
+  color: #777777;
+}
+#aboutmeparagraph {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  border: 10px;
+  float: left;
+}
+ a {
+   color: gray;
+}
+/*Portfolio Page*/ 
+#boxcontainer {
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 600px;
+  height: 0px;
+}
+#Box1{
+  margin: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: #cccccc solid 1px;
+  float:left;
+}
+#Box2 {
+  margin: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: #cccccc solid 1px;
+  float: left;
+}
+#Box3 {
+  margin: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: #cccccc solid 1px;
+  float: left;
+}
+#Box4 {
+  margin: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: #cccccc solid 1px;
+  float: left;
+}
+#Box5 {
+  margin: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  background-color:white;
+  border: #cccccc solid 1px;
+  float: left;
+}
+/*Contact Page*/ 
+form {
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px 0px 0px 0px;
+}
+input[type=text] {
+  width: 920px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: gray;
+}
+input[type=submit] {
+  width: 40px;
+  background-color: #4aaaa5;
+  color: white;
+}
+#subject {
+  width: 920px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  color:gray;
+  border-color: #cccccc;
+  resize: none;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 14px;
+}
+ /* StaticFooter */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 9px;
+  background-color:#666666;
+  width:100%;
+  height:40px;
+  border-top: 8px solid #4aaaa5;
+  line-height:60px;
+  text-align:center;
+}
