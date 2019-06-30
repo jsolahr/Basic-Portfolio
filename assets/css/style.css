@@ -77,11 +77,12 @@ li {
   height: 400px;
   color: #777777;
 } 
-/*MyName*/
+/*Page-Name*/
 h2 {
   margin-top: 6px;
   padding-left:2px;
   color: #4aaaa5; 
+  font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /*solidline*/
@@ -96,73 +97,91 @@ hr {
   border-color:#cccccc;
 }
 #myaboutmepic {
-  font-family: Arial, Helvetica, sans-serif;
   padding-right: 15px;
   margin: 0px;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   color: #777777;
 }
 #aboutmeparagraph {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   margin-top: 20px;
   border: 10px;
   float: left;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
  a {
    color: gray;
 }
 /*Portfolio Page*/ 
 #boxcontainer {
-  margin-left: 0px;
-  margin-top: 10px;
-  width: 600px;
+  margin-bottom: 5px;
+  padding: 0;
+  width: 800px;
   height: 0px;
+ }
+.Box1-Image {
+  background-image:url(https://cdn.visitutah.com/media/15892363/web2000-northguardianangel_joenewman.jpg?anchor=center&mode=crop&width=1140&height=760&rnd=131877746960000000&quality=86);  
+  height:100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
-#Box1{
-  margin: 10px;
-  padding: 20px;
+.Box2-Image {
+  background-image:url(https://i0.wp.com/tripswithtykes.com/wp-content/uploads/2017/04/Bryce-Canyon-Hoodoos-from-the-rim.jpg?fit=750%2C563&ssl=1);  
   height: 100px;
-  width: 100px;
-  background-color:white;
-  border: #cccccc solid 1px;
-  float:left;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
-#Box2 {
-  margin: 10px;
-  padding: 20px;
+.Box3-Image {
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
   height: 100px;
-  width: 100px;
-  background-color:white;
-  border: #cccccc solid 1px;
-  float: left;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
-#Box3 {
-  margin: 10px;
-  padding: 20px;
+.Box4-Image {
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
   height: 100px;
-  width: 100px;
-  background-color:white;
-  border: #cccccc solid 1px;
-  float: left;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
 }
-#Box4 {
-  margin: 10px;
-  padding: 20px;
+.Box5-Image{
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
   height: 100px;
-  width: 100px;
-  background-color:white;
-  border: #cccccc solid 1px;
-  float: left;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
 }
-#Box5 {
-  margin: 10px;
-  padding: 20px;
-  height: 100px;
-  width: 100px;
-  background-color:white;
-  border: #cccccc solid 1px;
-  float: left;
+#buttons {
+  text-align: center;
+  position: absolute;
+  width: 160px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  position: relative;
 }
 /*Contact Page*/ 
 form {
